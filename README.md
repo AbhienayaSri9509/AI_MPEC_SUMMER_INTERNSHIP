@@ -1,7 +1,6 @@
-
 # 🎓 AI_MPEC Summer Internship Projects
 
-Welcome to the AI_MPEC Summer Internship repository! This repo showcases 4 weekly data science and machine learning mini-projects completed as part of the internship. Each project demonstrates practical applications of data analysis, clustering, and machine learning in different domains.
+Welcome to the AI_MPEC Summer Internship repository! This repo showcases 5 weekly data science and machine learning mini-projects completed as part of the internship. Each project demonstrates practical applications of data analysis, clustering, and machine learning in different domains.
 
 ---
 
@@ -81,46 +80,52 @@ Users were clustered into taste groups (e.g., Action Lovers, Romantic Movie Fans
 
 ---
 
+## 📅 WEEK 5: Alcohol Speech Detection Using Audio Classification
+
+### 📌 Objective:
+To classify whether a person is under the influence of alcohol based on their speech patterns using audio feature extraction and supervised machine learning techniques.
+
+### 📊 Dataset:
+- `alcohol_speech_data.csv` or extracted features from real-time audio recordings
+
+### 🛠️ Techniques Used:
+- **Audio Preprocessing:**
+  - Noise filtering and normalization
+  - Audio segmentation and feature extraction using:
+    - MFCC (Mel-frequency cepstral coefficients)
+    - Chroma Frequencies
+    - Zero-Crossing Rate
+    - Root Mean Square Energy (RMSE)
+- **Model Training:**
+  - Train-test split
+  - Algorithms: Random Forest, SVM, Logistic Regression
+  - Evaluation using accuracy, F1-score, and confusion matrix
+- **Visualization:**
+  - MFCC spectrograms
+  - Confusion matrix plots
+  - Feature importance charts
+
+### 📌 Outcome:
+Built a reliable classifier to distinguish between sober and intoxicated speech patterns with strong accuracy. Demonstrated real-world application potential for safety monitoring, healthcare assessments, and DUI prevention systems.
+
+---
+
 ## 💼 Intern Skill Stack
 
 - Python (Pandas, NumPy, Matplotlib, Seaborn)
-- Scikit-learn (Clustering, PCA)
+- Scikit-learn (Clustering, PCA, Classification)
+- Librosa & Pydub for audio signal processing
 - Jupyter Notebooks & Google Colab
 - Data storytelling and visualization
 
 ---
 
-**📅 WEEK 5: Alcohol Speech Detection Using Audio Classification**
-
-**📌 Objective:**
-To detect whether a person is intoxicated based on their speech patterns using machine learning techniques.
-
-**📊 Dataset:**
-alcohol_speech_data.csv (or preprocessed MFCC feature set from recorded speech samples)
-
-**🛠️ Techniques Used:**
-Feature extraction using MFCC (Mel-frequency cepstral coefficients)
-
-Audio preprocessing (noise reduction, sampling)
-
-Supervised learning algorithms (e.g., Random Forest, SVM)
-
-Model evaluation using accuracy, confusion matrix
-
-**📌 Outcome:**
-Successfully built a classifier that can distinguish between sober and intoxicated speech samples with promising accuracy, showcasing potential for real-time safety or health monitoring applications.
-
-
-
 ## 📬 Contact
 
 **Intern Name:** Abhienaya Sri  
 **GitHub:** [AbhienayaSri9509](https://github.com/AbhienayaSri9509)  
-**Email:** abhienayasris@gmail.com
+**Email:** abhienayasris@gmail.com  
 
-
-**AI MPEC SUMMER INTERNSHIP GITHUB LINK:** https://github.com/AbhienayaSri9509/AI_MPEC_SUMMER_INTERNSHIP/tree/master
+**AI MPEC SUMMER INTERNSHIP GITHUB LINK:** [AI_MPEC_SUMMER_INTERNSHIP](https://github.com/AbhienayaSri9509/AI_MPEC_SUMMER_INTERNSHIP/tree/master)
 
 ---
-
-
