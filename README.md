@@ -90,11 +90,35 @@ Users were clustered into taste groups (e.g., Action Lovers, Romantic Movie Fans
 
 ---
 
+
+**📅 WEEK 5: Alcohol Speech Detection Using Audio Classification**
+
+**📌 Objective:**
+To detect whether a person is intoxicated based on their speech patterns using machine learning techniques.
+
+**📊 Dataset:**
+alcohol_speech_data.csv (or preprocessed MFCC feature set from recorded speech samples)
+
+**🛠️ Techniques Used:**
+Feature extraction using MFCC (Mel-frequency cepstral coefficients)
+
+Audio preprocessing (noise reduction, sampling)
+
+Supervised learning algorithms (e.g., Random Forest, SVM)
+
+Model evaluation using accuracy, confusion matrix
+
+**📌 Outcome:**
+Successfully built a classifier that can distinguish between sober and intoxicated speech samples with promising accuracy, showcasing potential for real-time safety or health monitoring applications.
+
+
+
 ## 📬 Contact
 
 **Intern Name:** Abhienaya Sri  
 **GitHub:** [AbhienayaSri9509](https://github.com/AbhienayaSri9509)  
 **Email:** abhienayasris@gmail.com
+**AI MPEC SUMMER INTERNSHIP GITHUB LINK:** https://github.com/AbhienayaSri9509/AI_MPEC_SUMMER_INTERNSHIP/tree/master
 
 ---
 
