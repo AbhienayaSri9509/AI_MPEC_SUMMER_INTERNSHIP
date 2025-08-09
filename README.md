@@ -196,10 +196,8 @@ Deploy fraud detection model as an API.
 
 Test on multiple fraud datasets. 
  
-## jupyter link:
-file:///C:/Users/HP/Downloads/Untitled.ipynb%20-%20JupyterLab.html
 
-## drive link of the project folder :
+## Drive link of the project folder :
  https://drive.google.com/drive/folders/1GIMs2DOi7VI_74CIv3AsYWCaNcQFqgJu?usp=drive_link 
 
  
