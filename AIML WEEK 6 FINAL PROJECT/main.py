@@ -6,10 +6,10 @@ from train import main as train_model
 import os
 
 def main():
-    # Create data directory if it doesn't exist
+    
     os.makedirs('data', exist_ok=True)
     
-    # Generate sample data if it doesn't exist
+    
     data_path = 'data/fraud_data.csv'
     if not os.path.exists(data_path):
         df = generate_fraud_dataset()
