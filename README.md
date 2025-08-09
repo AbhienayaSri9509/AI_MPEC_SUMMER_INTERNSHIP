@@ -113,14 +113,14 @@ Built a reliable classifier to distinguish between sober and intoxicated speech 
 
 ---
 
-#### 📖WEEK 6 FINAL PROJECT : Fraud Detection with CTGAN
+## 📖WEEK 6 FINAL PROJECT : Fraud Detection with CTGAN
 
-## 📌 Overview
+### 📌 Overview
 
 This project demonstrates how CTGAN (Conditional Tabular Generative Adversarial Network) can be used to generate synthetic transaction data for fraud detection tasks.
 CTGAN helps in handling imbalanced datasets by creating realistic synthetic fraud samples, improving model training for rare-event classification problems.
 
-## 🎯 Objectives
+### 🎯 Objectives
 
 Generate synthetic fraudulent transaction data to balance the dataset.
 
@@ -128,7 +128,7 @@ Improve fraud detection model performance using augmented data.
 
 Showcase a complete data preprocessing → generation → model training → evaluation pipeline.
 
-## 🛠️ Technologies Used
+### 🛠️ Technologies Used
 
 Python (>=3.8)
 
@@ -141,7 +141,7 @@ ctgan – Synthetic data generation
 Matplotlib, Seaborn – Data visualization
 
 
-## 📊 Dataset
+### 📊 Dataset
 
 We use a credit card transactions dataset (e.g., Kaggle Credit Card Fraud Detection Dataset), which is highly imbalanced:
 
@@ -149,7 +149,7 @@ Legitimate transactions: ~99.8%
 
 Fraudulent transactions: ~0.2%
 
-## 🔄 Workflow
+### 🔄 Workflow
 Load and preprocess transaction data.
 
 Train CTGAN on fraud-labeled data to generate synthetic samples.
